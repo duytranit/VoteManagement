@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\Publish\VoteManagement</_PublishTargetUrl>
+    <History>True|2024-03-15T01:47:05.5293070Z;True|2024-03-14T16:12:56.3441089+07:00;True|2024-03-14T16:09:23.5245994+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/RadCaptcha/0.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/1.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/2.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/3.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/4.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/5.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/6.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/7.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/8.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/9.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/A.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/B.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/C.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/D.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/E.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/F.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/G.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/H.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/I.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/J.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/K.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/L.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/M.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/N.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/O.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/P.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Q.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/R.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/S.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/T.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/U.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/V.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/W.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/X.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Y.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Z.wav">
+      <publishTime>11/11/2021 13:25:18</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/de-DE.tdf">
+      <publishTime>11/11/2021 13:26:18</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/en-US.tdf">
+      <publishTime>11/11/2021 13:26:18</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/fr-FR.tdf">
+      <publishTime>11/11/2021 13:26:18</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>01/05/2024 21:14:24</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>03/15/2022 08:39:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>10/05/2023 11:12:38</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>10/02/2020 15:42:28</publishTime>
+    </File>
+    <File Include="bin/Irony.dll">
+      <publishTime>07/18/2018 08:40:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>07/30/2013 23:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>05/10/2022 23:31:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/27/2021 03:25:54</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/SixLabors.Fonts.dll">
+      <publishTime>08/11/2023 19:04:56</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>02/01/2002 19:02:02</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 17:05:18</publishTime>
+    </File>
+    <File Include="bin/System.IO.Packaging.dll">
+      <publishTime>10/23/2021 06:49:36</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>02/19/2020 17:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>05/15/2018 20:29:44</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>11/15/2019 15:37:58</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Design.dll">
+      <publishTime>11/10/2021 13:51:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Device.Detection.dll">
+      <publishTime>11/10/2021 13:51:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Spreadsheet.dll">
+      <publishTime>11/11/2021 04:27:18</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>11/10/2021 13:51:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>11/10/2021 13:51:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Core.dll">
+      <publishTime>11/09/2021 00:59:34</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Flow.dll">
+      <publishTime>11/09/2021 00:59:52</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Spreadsheet.dll">
+      <publishTime>11/09/2021 01:00:04</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll">
+      <publishTime>11/09/2021 01:00:06</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Zip.dll">
+      <publishTime>11/09/2021 00:59:30</publishTime>
+    </File>
+    <File Include="bin/VoteManagement.dll">
+      <publishTime>03/15/2024 08:47:05</publishTime>
+    </File>
+    <File Include="bin/VoteManagement.pdb">
+      <publishTime>03/15/2024 08:47:05</publishTime>
+    </File>
+    <File Include="bin/XLParser.dll">
+      <publishTime>05/20/2022 15:49:02</publishTime>
+    </File>
+    <File Include="calendar.aspx">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="contacts.aspx">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Controls/FolderNavigationControl.ascx">
+      <publishTime>03/07/2024 10:44:44</publishTime>
+    </File>
+    <File Include="Controls/MobileNavigation.ascx">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>03/14/2024 16:11:56</publishTime>
+    </File>
+    <File Include="Default.Master">
+      <publishTime>03/07/2024 10:33:04</publishTime>
+    </File>
+    <File Include="Employee.Master">
+      <publishTime>03/15/2024 08:42:37</publishTime>
+    </File>
+    <File Include="Fonts/OutlookSampleApp.eot">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Fonts/OutlookSampleApp.svg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Fonts/OutlookSampleApp.ttf">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Fonts/OutlookSampleApp.woff">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/19/2024 14:49:00</publishTime>
+    </File>
+    <File Include="Images/backgrounds/header_about.gif">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/backgrounds/header_calendar.gif">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/backgrounds/header_contacts.gif">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/backgrounds/header_mail.gif">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/backgrounds/header_notes.gif">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/BenTre.png">
+      <publishTime>03/04/2024 20:38:36</publishTime>
+    </File>
+    <File Include="Images/contacts/ALFKI.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/ANATR.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/ANTON.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/AROUT.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/BERGS.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/BLAUS.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/BLONP.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/BOLID.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/contacts/BONAP.jpg">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/mail-orientation.png">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/photo-profile-s.png">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/photo-profile.png">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/product-icons.png">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Images/telerik-logo.png">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>03/14/2024 15:46:18</publishTime>
+    </File>
+    <File Include="Models/VoteManagement.edmx.diagram">
+      <publishTime>03/13/2024 07:49:19</publishTime>
+    </File>
+    <File Include="notes.aspx">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Partials/Account/Form.ascx">
+      <publishTime>03/13/2024 08:09:37</publishTime>
+    </File>
+    <File Include="Partials/Account/RGAccount.ascx">
+      <publishTime>03/12/2024 09:19:57</publishTime>
+    </File>
+    <File Include="Partials/AccountAnswer/Form.ascx">
+      <publishTime>03/04/2024 09:12:36</publishTime>
+    </File>
+    <File Include="Partials/Answer/RGAnswer.ascx">
+      <publishTime>03/01/2024 08:25:32</publishTime>
+    </File>
+    <File Include="Partials/Department/Form.ascx">
+      <publishTime>03/11/2024 14:49:19</publishTime>
+    </File>
+    <File Include="Partials/Department/RGDepartment.ascx">
+      <publishTime>03/11/2024 15:01:40</publishTime>
+    </File>
+    <File Include="Partials/Question/AnswerQuestion.ascx">
+      <publishTime>03/13/2024 16:33:30</publishTime>
+    </File>
+    <File Include="Partials/Question/Form.ascx">
+      <publishTime>03/14/2024 15:12:26</publishTime>
+    </File>
+    <File Include="Partials/Question/RGQuestion.ascx">
+      <publishTime>03/14/2024 15:36:47</publishTime>
+    </File>
+    <File Include="Partials/Question/RGQuestionOfAccount.ascx">
+      <publishTime>03/14/2024 16:05:01</publishTime>
+    </File>
+    <File Include="Partials/Vote/EMPRGVote.ascx">
+      <publishTime>03/15/2024 08:39:25</publishTime>
+    </File>
+    <File Include="Partials/Vote/Form.ascx">
+      <publishTime>03/12/2024 10:15:51</publishTime>
+    </File>
+    <File Include="Partials/Vote/RGVote.ascx">
+      <publishTime>03/14/2024 14:24:33</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>02/06/2024 08:55:00</publishTime>
+    </File>
+    <File Include="Styles/calendar.css">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Styles/common.css">
+      <publishTime>03/14/2024 14:04:37</publishTime>
+    </File>
+    <File Include="Styles/contacts.css">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Styles/mail.css">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Styles/notes.css">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Styles/RBCommon.css">
+      <publishTime>03/14/2024 14:06:05</publishTime>
+    </File>
+    <File Include="Styles/styles.css">
+      <publishTime>02/06/2024 07:34:53</publishTime>
+    </File>
+    <File Include="Views/Admin/Account/Index.aspx">
+      <publishTime>03/14/2024 14:20:32</publishTime>
+    </File>
+    <File Include="Views/Admin/Answer/Index.aspx">
+      <publishTime>03/14/2024 13:43:26</publishTime>
+    </File>
+    <File Include="Views/Admin/Department/Index.aspx">
+      <publishTime>03/14/2024 14:20:04</publishTime>
+    </File>
+    <File Include="Views/Admin/Question/CUD.aspx">
+      <publishTime>03/14/2024 15:41:59</publishTime>
+    </File>
+    <File Include="Views/Admin/Vote/CUD.aspx">
+      <publishTime>03/14/2024 14:55:50</publishTime>
+    </File>
+    <File Include="Views/Admin/Vote/Index.aspx">
+      <publishTime>03/14/2024 14:18:36</publishTime>
+    </File>
+    <File Include="Views/Employee/Question/CUD.aspx">
+      <publishTime>03/14/2024 15:53:33</publishTime>
+    </File>
+    <File Include="Views/Employee/Question/Index.aspx">
+      <publishTime>03/14/2024 15:53:24</publishTime>
+    </File>
+    <File Include="Views/Employee/Vote/Index.aspx">
+      <publishTime>03/15/2024 08:31:40</publishTime>
+    </File>
+    <File Include="Views/NonLogin/Login.aspx">
+      <publishTime>03/07/2024 10:34:31</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>02/06/2024 08:54:59</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/14/2024 16:09:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

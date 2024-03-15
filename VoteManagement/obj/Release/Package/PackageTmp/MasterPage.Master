@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" ClientIDMode="Predictable" CodeBehind="MasterPage.master.cs" Inherits="VoteManagement.MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Styles/RBCommon.css" />
+    <link href="Styles/mail.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <form id="form1" class="clear" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+            </Scripts>
+        </telerik:RadScriptManager>
+
+        <div id="about" class="slider">
+            <header class="tm-header" id="logo"></header>
+            <h2 class="logo" style="text-align:center;">
+                <asp:Image runat="server" ImageUrl="~/Images/BenTre.png" Width="50%" />
+            </h2>
+
+            <telerik:RadMenu runat="server" ID="verticalMenu" Skin="BlackMetroTouch" Flow="Vertical" CssClass="main-menu" EnableImageSprites="true" RenderMode="Lightweight">
+                <Items>
+                    <telerik:RadMenuItem Text="Tài khoản" NavigateUrl="~/Account" CssClass="mail" />
+                    <telerik:RadMenuItem Text="Đơn vị" NavigateUrl="~/Department" CssClass="contacts" /> 
+                    <telerik:RadMenuItem Text="Bầu cử" NavigateUrl="~/Vote" CssClass="notes" />
+                </Items>
+            </telerik:RadMenu>
+
+            <telerik:RadMenu ID="RadMenu1" runat="server" CssClass="help-menu" Skin="BlackMetroTouch" Flow="Vertical" RenderMode="Lightweight">
+                <Items>
+                    <telerik:RadMenuItem Text="TT TTĐT Bến Tre" NavigateUrl="~/" Target="_blank" />
+                </Items>
+            </telerik:RadMenu>
+        </div>
+        <div class="page">
+            <div class="main-header clear">
+                <div class="home-btn">
+                    <span class="icon icon-Home"></span>
+                    <span class="text">
+                        <asp:ContentPlaceHolder ID="pageTitle" runat="server"></asp:ContentPlaceHolder>
+                    </span>
+                </div>
+
+                <telerik:RadNavigation ID="mainNavigation" runat="server" CssClass="header-info" EnableEmbeddedSkins="false">
+                    <Nodes>
+                        <%--<telerik:NavigationNode Text="Waiting Button" NavigateUrl="~/" Target="_blank" SpriteCssClass="icon icon-Info" />
+                        <telerik:NavigationNode Text="Waiting Button" NavigateUrl="~/" SpriteCssClass="icon icon-Download" />--%>
+                        <telerik:NavigationNode ID="nvmLoginAccount" CssClass="user" SpriteCssClass="icon icon-Arrow-South"></telerik:NavigationNode>
+                    </Nodes>
+                </telerik:RadNavigation>
+            </div>
+            <div class="container clear">
+                <%--<div class="sidebar" id="sidebar" style="min-width: 350px; padding: 20px;">
+
+                    <telerik:RadMenu runat="server" Flow="Vertical">
+                        <Items>
+                            <telerik:RadMenuItem Text="Account" NavigateUrl="~/Account" />
+                            <telerik:RadMenuItem Text="Department" NavigateUrl="~/Department" />
+                            <telerik:RadMenuItem Text="Work" NavigateUrl="~/Work" />
+                            <telerik:RadMenuItem Text="Vote" NavigateUrl="~/Vote" />
+                            <telerik:RadMenuItem Text="Question" NavigateUrl="~/Question" />
+                        </Items>
+                    </telerik:RadMenu>
+
+                    <asp:ContentPlaceHolder ID="FolderContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>--%>
+
+                <div class="section bottom">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="tm-click-overlay"></div>
+            <telerik:RadToolTip runat="server" ID="UserProfile" IsClientID="true" EnableShadow="true" HideEvent="FromCode" Visible="true" TargetControlID="aa">
+                <img src="Images/BenTre.png" alt="" width="50px"/>
+                <div class="content">
+                    <span>
+                        <asp:Label ID="lblLoginAccount" runat="server"></asp:Label>
+                    </span>
+                    <telerik:RadButton runat="server" ID="SignOut" ButtonType="LinkButton" Text="Sign Out" OnClick="SignOut_Click"></telerik:RadButton>
+                </div>
+            </telerik:RadToolTip>
+        </div>
+        <asp:HiddenField runat="server" ID="nav" />
+
+        <script type="text/javascript">
+            var nav = $get("<%= nav.ClientID %>").value;
+
+            function pageLoad() {
+                if (nav === "mobile") {
+                    $itemMenu = $(".item.menu");
+
+                    $('.rmRootToggle').on("click", function () {
+                        var open = $itemMenu.hasClass("expanded");
+                        if (!open)
+                            $itemMenu.addClass("expanded");
+                        else
+                            $itemMenu.removeClass("expanded");
+                    });
+                }
+
+                $('.home-btn').on("click", function () {
+                    $('form').toggleClass('expandedSlider');
+                });
+
+                setNavigationsMinWidth();
+                initializeInteractions();
+            }
+
+            function initializeInteractions() {
+                $(".user").on("click", function (e) {
+                    toggleToolTip(e);
+                })
+
+                $(".searchBtn").on("click", function () {
+                    showSearch();
+                })
+            }
+
+            function setNavigationsMinWidth() {
+                $(".RadNavigation").each(function () {
+                    var navigation = $find($(this).attr("id"));
+                    navigation._minWidth = 0;
+                    navigation.repaint()
+                })
+            }
+
+            function toggleToolTip(e) {
+                var tooltip = $find("<%=UserProfile.ClientID %>");
+
+                if (!tooltip.isVisible() == true) {
+                    var $node = $(e.currentTarget);
+                    var arrowPosition = $node.offset();
+
+                    tooltip.show();
+                    var popup = tooltip.get_popupElement();
+
+                    positionX = arrowPosition.left - $(popup).outerWidth(true) + $node.outerWidth(true) + 5;
+                    positionY = arrowPosition.top + $node.outerHeight(true) + 3;
+
+                    setTimeout(function () {
+                        $telerik.setLocation(popup, { x: positionX, y: positionY });
+                    }, 20)
+
+                    $("html").on("click", function (e) {
+                    })
+                }
+                else {
+                    tooltip.hide();
+                }
+            }
+
+            function showSearch() {
+                var search = $find($('div.RadSearchBox').attr('id'));
+                var $search = $(search.get_element());
+                var $searchInput = $search.find(".rsbInput");
+                $search.removeClass("hidden");
+                $searchInput.focus();
+
+                setTimeout(function () {
+                    search.repaint();
+
+                    $('html').on("click", function (e) {
+                        hideSearch(e, $search);
+                    });
+                }, 300);
+
+            }
+
+            function hideSearch(e, $search) {
+                var isSearchBoxClicked = $(e.target).parents(".RadSearchBox").length == 1;
+                var isSearchBoxItemClicked = $(e.target).parents(".rsbPopup").length == 1;
+
+                if (isSearchBoxClicked || isSearchBoxItemClicked) {
+                    return
+                }
+
+                $search.addClass("hidden");
+                $('html').off("click");
+            }
+        </script>
+    </form>
+</body>
+</html>

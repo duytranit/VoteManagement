@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b8ea8562c4a9422e8520ce9e60eb6f0c" Name="Diagram1">
+        <EntityTypeShape EntityType="VoteManagementModel.AccounAnswer" Width="1.5" PointX="10.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoteManagementModel.AccountCategory" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoteManagementModel.Answer" Width="1.5" PointX="10.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoteManagementModel.Department" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoteManagementModel.Question" Width="1.5" PointX="10.375" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoteManagementModel.Vote" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="VoteManagementModel.FK_AccountAnswer_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="VoteManagementModel.FK_Answer_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="VoteManagementModel.FK_Vote_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="VoteManagementModel.FK_Question_Vote" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VoteManagementModel.Account" Width="1.5" PointX="3" PointY="3.375" />
+        <AssociationConnector Association="VoteManagementModel.FK_AccountAnswer_Account" />
+        <AssociationConnector Association="VoteManagementModel.FK_Account_Category" />
+        <AssociationConnector Association="VoteManagementModel.FK_Account_Department" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

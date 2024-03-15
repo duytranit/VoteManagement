@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="VoteManagement.Default1" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Styles/common.css" />
+    <link href="Styles/mail.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <form id="form1" class="clear" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+            </Scripts>
+        </telerik:RadScriptManager>
+        <div class="page">
+            <div class="main-header clear">
+                <div class="home-btn">
+                    <span class="icon icon-Home"></span>
+                    <span class="text"><%: Page.Title %></span>
+                </div>
+            </div>
+            <div class="container clear">
+                <div class="sidebar" id="sidebar" style="min-width: 350px; padding: 20px;">
+                    <asp:ContentPlaceHolder ID="FolderContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div class="section bottom">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="tm-click-overlay"></div>
+        </div>
+        <asp:HiddenField runat="server" ID="nav" />
+    </form>
+</body>
+</html>
