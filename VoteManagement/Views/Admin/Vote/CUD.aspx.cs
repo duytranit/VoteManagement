@@ -34,5 +34,14 @@ namespace VoteManagement.Views.Admin.Vote
             else
                 Response.Redirect("~/");
         }
+
+        protected void btExport_Click(object sender, EventArgs e)
+        {
+            int voteID = Convert.ToInt32(this.Page.RouteData.Values["voteID"]);
+            Models.Entities.Vote ettVote = new Models.Entities.Vote();
+            Models.Vote vote = ettVote.Find(voteID);
+            Helpers.BaoCaoVoteExcelHelper hlpExport = new Helpers.BaoCaoVoteExcelHelper();
+            hlpExport.ExportExcel(vote);
+        }
     }
 }

@@ -15,6 +15,24 @@ namespace VoteManagement.Views.Admin.Vote
     {
 
         /// <summary>
+        /// btPrevious control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadButton btPrevious;
+
+        /// <summary>
+        /// btExport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadButton btExport;
+
+        /// <summary>
         /// lblName control.
         /// </summary>
         /// <remarks>
