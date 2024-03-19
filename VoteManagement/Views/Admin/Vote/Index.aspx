@@ -4,7 +4,7 @@
     
 </asp:Content>
 <asp:Content ContentPlaceHolderID="pageTitle" runat="server">
-    QUẢN LÝ BẦU CỬ
+    QUẢN LÝ BỎ PHIẾU
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <Partial:RGVote runat="server" />

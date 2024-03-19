@@ -55,8 +55,6 @@ namespace VoteManagement.Helpers
             // Footer
             _hlpExcel = new ClosedXMLExportExcelHelper();
             _hlpExcel.Parameter = _hlpExcel.RangeFormular(_worksheet, _column, row - 1);
-
-            _worksheet.Cell(_hlpExcel.RangeFormular(_worksheet, _column, row + 1)).FormulaA1 = _hlpExcel.SumFormular;
         }
         private void Borderred(IXLWorksheet _worksheet, int _fromrow, int _torow)
         {

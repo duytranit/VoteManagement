@@ -32,5 +32,13 @@ namespace VoteManagement.Views.Admin.Question
             else
                 Response.Redirect("~/");
         }
+
+        protected void btPrevious_Click(object sender, EventArgs e)
+        {
+            int questionID = Convert.ToInt32(this.Page.RouteData.Values["questionID"]);
+            Models.Entities.Question ettQuestion = new Models.Entities.Question();
+            Models.Question question = ettQuestion.Find(questionID);
+            Response.Redirect("~/Vote/" + question.VOTID);
+        }
     }
 }

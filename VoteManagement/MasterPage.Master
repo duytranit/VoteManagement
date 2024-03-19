@@ -8,7 +8,6 @@
     <link href="Styles/mail.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
@@ -52,29 +51,11 @@
 
                 <telerik:RadNavigation ID="mainNavigation" runat="server" CssClass="header-info" EnableEmbeddedSkins="false">
                     <Nodes>
-                        <%--<telerik:NavigationNode Text="Waiting Button" NavigateUrl="~/" Target="_blank" SpriteCssClass="icon icon-Info" />
-                        <telerik:NavigationNode Text="Waiting Button" NavigateUrl="~/" SpriteCssClass="icon icon-Download" />--%>
                         <telerik:NavigationNode ID="nvmLoginAccount" CssClass="user" SpriteCssClass="icon icon-Arrow-South"></telerik:NavigationNode>
                     </Nodes>
                 </telerik:RadNavigation>
             </div>
             <div class="container clear">
-                <%--<div class="sidebar" id="sidebar" style="min-width: 350px; padding: 20px;">
-
-                    <telerik:RadMenu runat="server" Flow="Vertical">
-                        <Items>
-                            <telerik:RadMenuItem Text="Account" NavigateUrl="~/Account" />
-                            <telerik:RadMenuItem Text="Department" NavigateUrl="~/Department" />
-                            <telerik:RadMenuItem Text="Work" NavigateUrl="~/Work" />
-                            <telerik:RadMenuItem Text="Vote" NavigateUrl="~/Vote" />
-                            <telerik:RadMenuItem Text="Question" NavigateUrl="~/Question" />
-                        </Items>
-                    </telerik:RadMenu>
-
-                    <asp:ContentPlaceHolder ID="FolderContent" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>--%>
-
                 <div class="section bottom">
                     <asp:ContentPlaceHolder ID="MainContent" runat="server">
                     </asp:ContentPlaceHolder>

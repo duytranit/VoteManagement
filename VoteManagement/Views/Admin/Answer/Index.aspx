@@ -2,6 +2,10 @@
 <%@ Register TagPrefix="Partial" TagName="RGAnswer" Src="~/Partials/Answer/RGAnswer.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="pageTitle" runat="server">
+    QUẢN LÝ BỎ PHIẾU
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <telerik:RadNavigation runat="server" ID="contactNavigation" Skin="BlackMetroTouch" CssClass="secondaryMenu">

@@ -12,11 +12,6 @@ namespace VoteManagement
         protected void Page_Load(object sender, EventArgs e)
         {
             string title = this.Page.Title;
-            //RadMenuItem item = verticalMenu.FindItemByText(title);
-            //if (item != null)
-            //{
-            //    item.Selected = true;
-            //}
 
             if (this.Session["accountID"] == null)
                 Response.Redirect("~/");
